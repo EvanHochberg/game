@@ -1,0 +1,28 @@
+.background    { background-image: url("space_eye.jpg");
+                 background-repeat: no-repeat;
+				 background-position: center;
+				 background-attachment: relative;
+
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.spike         { background: rgb(255, 100, 100); }
+.wallFloor     { background: white;   }
+
+.actor  { position: absolute;  }
+.chip   { background: rgb(241, 229, 89); }
+.puppet { background: rgb(64, 64, 64); }
+.athing { background: green; }
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .puppet {
+  background: rgb(160, 64, 64);
+}
+.won .puppet {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
